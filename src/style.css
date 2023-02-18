@@ -9,6 +9,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
 nav {
     height: 70px;
     padding: 20px 36px;
@@ -45,4 +53,22 @@ section {
     font-weight: 300;
    font-size: 16px;
    line-height: 110%;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card--img{
+    width: 100%;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star{
+    height: 14px;
 }
